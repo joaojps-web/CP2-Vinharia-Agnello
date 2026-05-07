@@ -1,0 +1,207 @@
+a {
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #03256e;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+a {
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+nav a {
+  transition: color 0.3s ease, letter-spacing 0.3s ease;
+}
+
+button:hover,
+.btn:hover {
+  background-color: #8b1a1a;
+  color: #f5e6c8;
+  box-shadow: 0 4px 12px rgba(139, 26, 26, 0.4);
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: #8b1a1a;
+  box-shadow: 0 0 0 3px rgba(139, 26, 26, 0.2);
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.card:nth-child(odd),
+li:nth-child(odd) {
+  background-color: rgba(139, 26, 26, 0.05);
+}
+
+nav a:not(.active):hover {
+  letter-spacing: 0.05em;
+  transition: letter-spacing 0.3s ease;
+}
+
+input[type="checkbox"]:checked + label {
+  color: #8b1a1a;
+  font-weight: bold;
+}
+
+h2::before {
+  content: "🍷 ";
+  display: inline-block;
+  animation: balanco 2s ease-in-out infinite;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, #8b1a1a, #c0392b, transparent);
+  margin-top: 6px;
+  border-radius: 2px;
+}
+
+::selection {
+  background-color: #8b1a1a;
+  color: #f5e6c8;
+}
+
+@keyframes balanco {
+  0%, 100% { transform: rotate(0deg); }
+  25%       { transform: rotate(-15deg); }
+  75%       { transform: rotate(15deg); }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulsar {
+  0%, 100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(139, 26, 26, 0.4); }
+  50%       { transform: scale(1.06); box-shadow: 0 0 0 8px rgba(139, 26, 26, 0); }
+}
+
+@keyframes brilho {
+  0%   { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+.hero,
+.banner,
+header {
+  animation: fadeInUp 0.8s ease both;
+}
+
+.card,
+.produto,
+section {
+  animation: fadeInUp 0.6s ease both;
+}
+
+.badge,
+.destaque {
+  animation: pulsar 2s ease-in-out infinite;
+}
+
+.banner-animado {
+  background: linear-gradient(
+    90deg,
+    #8b1a1a 0%,
+    #c0392b 40%,
+    #f5e6c8 50%,
+    #c0392b 60%,
+    #8b1a1a 100%
+  );
+  background-size: 200% auto;
+  animation: brilho 3s linear infinite;
+  color: #f5e6c8;
+}
+
+
+.card,
+.produto {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover,
+.produto:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 24px rgba(139, 26, 26, 0.25);
+}
+
+img {
+  transition: transform 0.4s ease;
+}
+
+img:hover {
+  
+}
+
+.produto img:hover,
+.card img:hover {
+  transform: scale(1.08) rotate(2deg);
+}
+
+.icone-vinho,
+.logo-deco {
+  transform: rotate(-15deg);
+  display: inline-block;
+}
+
+.faixa-destaque {
+  transform: skewX(-8deg);
+  background-color: #8b1a1a;
+  color: #f5e6c8;
+  padding: 0.3rem 1.2rem;
+  display: inline-block;
+}
+
+.btn-cta:hover {
+  transform: translateY(-4px) scale(1.04);
+  box-shadow: 0 6px 20px rgba(139, 26, 26, 0.35);
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+header {
+  animation: fadeInUp 0.8s ease both;
+}
+
+
+button:hover {
+  background-color: #8b1a1a;
+  color: #f5e6c8;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.card:hover img {
+  transform: scale(1.05);
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}

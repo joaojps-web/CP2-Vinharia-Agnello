@@ -1,0 +1,73 @@
+@import url('efeitos.css');
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;    
+    gap: 20px;              
+    padding: 0;
+    font-size: 20px;
+    font-family: Bold italic;
+ 
+}
+
+body header nav ul li {
+    cursor: pointer;
+    
+}
+
+h1 {
+    color: #6b2c34;
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+
+h2 {
+    color: #6b2c34;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 16px;
+}
+
+h3 {
+    color: #6b2c34;
+    font-size: 30   px;
+}
+img {
+    border-radius: 10px;
+    filter: drop-shadow(6px 6px 6px #6b2c34);
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700px;
+    color: #6b2c34;
+    font-size: 22px;
+}
+
+
+iframe {
+    border-radius: 10px;
+    filter: drop-shadow(10px 10px 8px #6b2c34);
+}
+
+.traco-decorativo {
+    width: 1870px;         
+    height: 4px;          
+    background-color: #82454d;
+    margin: 10px auto;    
+    border-radius: 2px;
+    background-color: #72353d;
+}
+
+#titulos {
+    color: #72353d;
+
+}
