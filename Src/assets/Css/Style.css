@@ -42,7 +42,7 @@ h3 {
 }
 img {
     border-radius: 10px;
-    filter: drop-shadow(6px 6px 6px #6b2c34);
+    filter: drop-shadow(6px 6px 8px #6b2c34);
 }
 
 a {
@@ -55,7 +55,7 @@ a {
 
 iframe {
     border-radius: 10px;
-    filter: drop-shadow(10px 10px 8px #6b2c34);
+    filter: drop-shadow(10px 10px 10px #6b2c34);
 }
 
 .traco-decorativo {
