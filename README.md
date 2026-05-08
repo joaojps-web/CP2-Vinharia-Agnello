@@ -1,17 +1,25 @@
-# 🍷 Vinharia Agnello - CP1
+# 🍷 Vinharia Agnello - CP2
 >Integrantes: João Pedro, Arthur Germano, Bruno Araújo
 ## 📌 Sobre o Projeto
 Este repositório contém site que resolve o problema identificado pela vinharia fíctica
 
 ---
 
-## 🎯 Objetivos
-- Simular a presença digital de uma vinharia
-- Oferecer navegação intuitiva
-- Apresentar produtos e informações relevantes sobre vinhos
-- Aplicar conceitos de desenvolvimento web aprendidos em aula
+## 🆕 O que tem de novo
+        🔁 Animações em loop
+ 
+Três animações infinitas rodando em paralelo:
+ 
+- **`balanco`** — o emoji 🍷 no `h2` balança suavemente de -15° a +15°
+- **`pulsar`** — badges e destaques crescem e emitem um glow que expande e some
+- **`brilho`** — o `.banner-animado` tem um efeito shimmer em gradiente percorrendo da esquerda pra direita
 
----
+        🖋️ Tipografia e headings
+- **`Espaçamento de letras, imagens, texto`**
+- **`Efeito de sombra nas imagens`**
+
+        🖼️ Imagens com sombra
+- `Imagens ganham border-radius: 10px e drop-shadow na cor vinho`
 
 ## 🖥️ Funcionalidades
 - 🏠 Página inicial com apresentação da vinharia
@@ -23,18 +31,17 @@ Este repositório contém site que resolve o problema identificado pela vinharia
 ---
 
 ## 🗂️ Estrutura do Projeto
+├── 📃 index.html
+
+├── 📃 Readme.md
+
  🗂️Src/Assets/
 
 ├── 🗂️css/
 
         │ └── 🎨styles.css
 
-         │ └── 🎨efeitos.css 
-         - Animação nos links de transição entre páginas
-         - Mudança de cor nos links
-         - Mudança de cor nos botões
-         - Foco no input do usuário 
-         - Animação de balanço no emoji da taça de vinho ná página home 
+        │ └── 🎨efeitos.css 
 
 ├── 🗂️Img/  
 
@@ -48,20 +55,11 @@ Este repositório contém site que resolve o problema identificado pela vinharia
 
         │ └── 📃Servicos.js
 
-    ├── 📃index.html
 ---
 
 ## 🚀 Tecnologias Utilizadas
 - HTML
 - CSS
+- JavaScript
 
 ---
-
-## 💡 Descrição do Case
-A vinharia fictícia identificou a necessidade de modernizar seu atendimento e alcançar mais clientes por meio da internet. Com isso, foi proposta a criação de um site que permitisse:
-
-- Divulgação dos produtos
-- Facilitação do contato com clientes
-- Apresentar história da vinharia
-- Oferecer diversos serviços
-
